@@ -1,3 +1,7 @@
-# seoul-100m-grid-analysis
-Colab 기반 100m 격자 분석/시각화 작업(0~10km, 500m 구간, 불가용지 마스킹).
-입력(xlsx/shp)과 결과(html)는 저장소에 포함하지 않습니다.
+This repository presents the results of a grid-based spatial analysis conducted around major urban facilities in Seoul, using a standardized 100 m × 100 m grid system. The analysis covers a radial range of up to 10 km from each target site, with distance bands structured at 500 m intervals to support multi-scale spatial interpretation. All spatial computations are performed in the Korea 2000 / Unified Coordinate System (EPSG:5179) to ensure geometric consistency and metric accuracy.
+
+To improve analytical reliability, areas unsuitable for practical utilization—such as rivers, mountainous terrain, and legally protected or restricted land-use zones—are systematically excluded through the integration of multiple constraint layers derived from official land-use and topographic datasets. The resulting grid dataset therefore represents spatially feasible areas only, rather than theoretical distance-based coverage.
+
+The analytical workflow is fully automated, encompassing grid decoding, distance calculation, constraint masking, and the generation of interactive web-based visualizations. Final outputs are published as HTML maps via GitHub Pages, allowing open access and intuitive exploration without specialized GIS software.
+
+This project is intended to support research, policy review, and preliminary spatial assessment in urban and regional planning contexts. The visualized results are provided for analytical reference purposes and do not constitute legally binding spatial determinations. Any administrative or project-level application should be undertaken in conjunction with relevant regulations, up-to-date spatial data, and institutional review.
