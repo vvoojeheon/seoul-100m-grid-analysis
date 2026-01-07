@@ -1,0 +1,14 @@
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.xlsx
+*.html
+*.zip
+*.7z
+.config/
+Untitled Folder/
+sample_data/
+__pycache__/
+.ipynb_checkpoints/
