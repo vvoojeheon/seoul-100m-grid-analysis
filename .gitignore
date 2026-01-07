@@ -12,3 +12,5 @@ Untitled Folder/
 sample_data/
 __pycache__/
 .ipynb_checkpoints/
+
+!docs/index.html
